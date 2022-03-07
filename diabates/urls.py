@@ -20,5 +20,6 @@ from diabates import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home),
-    path('predict',views.predict)
+    path('predict',views.predict),
+    path('result',views.result)
 ]
