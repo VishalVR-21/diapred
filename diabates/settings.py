@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-rz9x#@s1u7dg1#cm*&_cesct^j9jmb6(0b=6=l24te&xm29343
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['diabates-predictor.azurewebsites.net/']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
